@@ -14,14 +14,21 @@
     "lint": "eslint src"
   },
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "ejsx": "^1.0.0-b2",
     "express": "^4.16.4",
-    "mysql": "^2.16.0"
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "pg": "^7.6.0",
+    "sequelize": "^4.41.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
